@@ -1,0 +1,489 @@
+*, *::after, *::before{
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+}
+
+
+
+.container{
+    width: 100%;
+    min-height: 100vh;
+    background: url(./images/bg-desktop.svg)  no-repeat;
+    background-color: rgb(98, 40, 206);
+    background-size: cover;
+    background-position: -90px;
+    overflow-x: hidden;
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+main{
+    display: flex;
+    position: relative;
+    padding-bottom: 7%;
+    padding-left: 2%;
+}
+
+.wrapper-logo img{
+    padding-bottom: 2.5rem;
+    padding-left: 4%;
+}
+
+.introduct{
+    padding: 4rem;
+    position: relative;
+
+}
+.introduct h1{
+    font-size: 3rem;
+    width: 35rem;
+    font-family: sans-serif;
+    color: white;
+}
+.introduct p{
+    padding-top: 1.5rem;
+    width: 32rem;
+    font-family: Helvetica;
+    text-align: justify;
+    color: white;
+    padding-bottom: 1.5rem;
+}
+
+.introduct button{
+    padding: 0.5rem 1rem 0.5rem 1rem;
+    font-family: sans-serif;
+    color: rgba(158, 36, 206, 0.746);
+    font-weight: 400;
+    font-size: 1.2rem;
+    text-align: center;
+    background: white;
+    box-shadow: 1px 2px 10px #333;
+    padding: 0.9rem;
+    width: 200px;
+    border-radius: 40px;
+    border: none;
+    cursor: pointer;
+}
+
+
+
+
+.social-media{
+    width: 250px;
+    height: 60px;
+    display: flex;
+    justify-content: space-evenly;
+    position: absolute;
+    right: 5rem;
+    bottom: 1rem;
+}
+.media{
+    width:60px;
+    border: 1.8px solid rgb(255, 255, 255);
+    border-radius: 50%;
+    padding-top: 2.7rem;
+    padding-right: 0.3rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.media img{
+    width: 30px;
+}
+
+
+@media(max-width: 320px){
+
+    .container{
+        display: block;
+        background-image: url(images/bg-mobile.svg);
+    }
+
+    .wrapper-logo{
+        width: 15rem;
+        height: 15rem;
+        padding-bottom: 7rem;
+    }
+    .wrapper-logo img{
+        width: 100%;
+        height: 100%;
+    }
+
+    main{
+        display: block;
+    }
+
+    .image-wrapper{
+        width: 95vw;
+
+    }
+
+    .img-wrapper img{
+        width: 100%;
+        height: 100%;
+    }
+
+    .wrapper-introduct{
+        width: 100vw;
+        height: 50%;
+    }
+
+    .introduct{
+        padding-top: 0;
+    }
+    .introduct p, h1, button{
+        width: 100%;
+        height: 100%;
+        
+    }
+
+    .introduct h1{
+        padding-top: 0;
+        font-size: 1.2rem;
+        width: 15rem;
+    }
+
+    .introduct p{
+        font-size: 0.8rem;
+    }
+
+    .social-media{
+        width: 220px;
+        height: 60px;
+        display: flex;
+        justify-content: space-evenly;
+        position: absolute;
+        right: 3.1rem;
+        bottom: -4rem;
+    }
+    .media{
+        width:60px;
+        border: 1.8px solid rgb(255, 255, 255);
+        border-radius: 50%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .media img{
+        width: 30px;
+    }
+}
+
+
+@media(max-width: 375px){
+
+    .container{
+        display: block;
+        background-image: url(images/bg-mobile.svg);
+    }
+
+    .wrapper-logo{
+        width: 15rem;
+        height: 15rem;
+        padding-bottom: 7rem;
+    }
+    .wrapper-logo img{
+        width: 100%;
+        height: 100%;
+    }
+
+    main{
+        display: block;
+    }
+
+    .image-wrapper{
+        width: 95vw;
+
+    }
+
+    .img-wrapper img{
+        width: 100%;
+        height: 100%;
+    }
+
+    .wrapper-introduct{
+        width: 100vw;
+        height: 50%;
+    }
+
+    .introduct{
+        padding-top: 0;
+    }
+    .introduct p, h1, button{
+        width: 100%;
+        height: 100%;
+        
+    }
+
+    .introduct h1{
+        padding-top: 0;
+        font-size: 1.4rem;
+        width: 15rem;
+    }
+
+    .introduct p{
+        font-size: 0.9rem;
+    }
+
+    .social-media{
+        width: 265px;
+        height: 60px;
+        display: flex;
+        justify-content: space-evenly;
+        position: absolute;
+        right: 4rem;
+        bottom: -4rem;
+    }
+    .media{
+        width:60px;
+        border: 1.8px solid rgb(255, 255, 255);
+        border-radius: 50%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .media img{
+        width: 30px;
+    }
+}
+
+@media(max-width: 425px){
+
+    .container{
+        display: block;
+        background-image: url(images/bg-mobile.svg);
+    }
+
+    .wrapper-logo{
+        width: 15rem;
+        height: 15rem;
+        padding-bottom: 7rem;
+    }
+    .wrapper-logo img{
+        width: 100%;
+        height: 100%;
+    }
+
+    main{
+        display: block;
+    }
+
+    .image-wrapper{
+        width: 95vw;
+
+    }
+
+    .img-wrapper img{
+        width: 100%;
+        height: 100%;
+    }
+
+    .wrapper-introduct{
+        width: 100vw;
+        height: 50%;
+    }
+
+    .introduct{
+        padding-top: 0;
+    }
+    .introduct p, h1, button{
+        width: 100%;
+        height: 100%;
+        
+    }
+
+    .introduct h1{
+        padding-top: 0;
+        font-size: 1.4rem;
+        width: 15rem;
+    }
+
+    .introduct p{
+        font-size: 0.9rem;
+    }
+
+    .social-media{
+        width: 300px;
+        height: 60px;
+        display: flex;
+        justify-content: space-evenly;
+        position: absolute;
+        right: 4rem;
+        bottom: -4rem;
+    }
+    .media{
+        width:60px;
+        border: 1.8px solid rgb(255, 255, 255);
+        border-radius: 50%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .media img{
+        width: 30px;
+    }
+}
+
+@media(max-width: 768px){
+
+    .container{
+        display: block;
+        background-image: url(images/bg-mobile.svg);
+    }
+
+    .wrapper-logo{
+        width: 15rem;
+        height: 15rem;
+        padding-bottom: 7rem;
+    }
+    .wrapper-logo img{
+        width: 100%;
+        height: 100%;
+    }
+
+    main{
+        display: block;
+    }
+
+    .image-wrapper{
+        width: 95vw;
+
+    }
+
+    .img-wrapper img{
+        width: 100%;
+        height: 100%;
+    }
+
+    .wrapper-introduct{
+        width: 100vw;
+        height: 50%;
+    }
+
+    .introduct{
+        padding-top: 0;
+    }
+    .introduct p, h1, button{
+        width: 100%;
+        height: 100%;
+        
+    }
+
+    .introduct h1{
+        padding-top: 0;
+        font-size: 2rem;
+        width: 25rem;
+    }
+
+    .introduct p{
+        font-size: 1rem;
+    }
+
+    .social-media{
+        width: 250px;
+        height: 60px;
+        display: flex;
+        justify-content: space-evenly;
+        position: absolute;
+        right: 5.5rem;
+        bottom: -4rem;
+    }
+    .media{
+        width:60px;
+        border: 1.8px solid rgb(255, 255, 255);
+        border-radius: 50%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .media img{
+        width: 30px;
+    }
+}
+
+@media(max-width: 1024px){
+
+    .container{
+        display: block;
+    }
+
+    .wrapper-logo{
+        width: 15rem;
+        height: 15rem;
+        padding-bottom: 7rem;
+    }
+    .wrapper-logo img{
+        width: 100%;
+        height: 100%;
+    }
+
+    main{
+        display: block;
+    }
+
+    .image-wrapper{
+        width: 95vw;
+
+    }
+
+    .img-wrapper img{
+        width: 100%;
+        height: 100%;
+    }
+
+    .wrapper-introduct{
+        width: 100vw;
+        height: 50%;
+    }
+
+    .introduct{
+        padding-top: 0;
+    }
+    .introduct p, h1, button{
+        width: 100%;
+        height: 100%;
+        
+    }
+
+    .introduct h1{
+        padding-top: 0;
+        font-size: 2rem;
+        width: 25rem;
+    }
+
+    .introduct p{
+        font-size: 1rem;
+    }
+
+    .social-media{
+        width: 250px;
+        height: 60px;
+        display: flex;
+        justify-content: space-evenly;
+        position: absolute;
+        right: 5.5rem;
+        bottom: -4rem;
+    }
+    .media{
+        width:60px;
+        border: 1.8px solid rgb(255, 255, 255);
+        border-radius: 50%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .media img{
+        width: 30px;
+    }
+}
+
+
+
+
+
+
+
