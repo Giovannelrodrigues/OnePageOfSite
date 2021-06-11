@@ -67,6 +67,12 @@ main{
     border-radius: 40px;
     border: none;
     cursor: pointer;
+    transition: all 1s;
+}
+
+.introduct button:hover{
+    color: black;
+    background-color: rgba(187, 81, 230, 0.746);
 }
 
 
@@ -91,6 +97,12 @@ main{
     justify-content: center;
     align-items: center;
 }
+
+.media:hover{
+    border: 3px solid rgba(187, 81, 230, 0.746);
+    transition:all 1s;
+}
+
 .media img{
     width: 30px;
 }
